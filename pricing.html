@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans | NovaPay</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pricing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="ticker">
+        <div class="ticker-track">
+            <div class="ticker-item">
+                <span class="ticker-sym">BTC/USD</span>
+                <span class="ticker-price">$67,240</span>
+                <span class="ticker-up">+2.14%</span>
+            </div>
+            <div class="ticker-item">
+                <span class="ticker-sym">ETH/USD</span>
+                <span class="ticker-price">$3,480</span>
+                <span class="ticker-up">+1.82%</span>
+            </div>
+            <div class="ticker-item">
+                <span class="ticker-sym">EUR/USD</span>
+                <span class="ticker-price">1.0841</span>
+                <span class="ticker-down">-0.12%</span>
+            </div>
+            <div class="ticker-item">
+                <span class="ticker-sym">GBP/USD</span>
+                <span class="ticker-price">1.2620</span>
+                <span class="ticker-up">+0.08%</span>
+            </div>
+            <div class="ticker-item">
+                <span class="ticker-sym">USD/JPY</span>
+                <span class="ticker-price">154.32</span>
+                <span class="ticker-down">-0.24%</span>
+            </div>
+            <div class="ticker-item">
+                <span class="ticker-sym">BTC/USD</span>
+                <span class="ticker-price">$67,240</span>
+                <span class="ticker-up">+2.14%</span>
+            </div>
+            <div class="ticker-item">
+                <span class="ticker-sym">ETH/USD</span>
+                <span class="ticker-price">$3,480</span>
+                <span class="ticker-up">+1.82%</span>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/novapay.png" alt="NovaPay Logo"></a>
+        </div>
+        <div class="menu-toggle" id="menuToggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="pricing.html" class="active-nav">Pricing</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="mobile-only-btn"><button class="btn-hero btn-hero--outline">Sign in</button></li>
+                <li class="mobile-only-btn"><button class="btn-hero btn-hero--primary">Get started</button></li>
+            </ul>
+        </nav>
+        <div class="buttons">
+            <button class="btn-hero btn-hero--outline">Sign in</button>
+            <button class="btn-hero btn-hero--primary">Get started</button>
+        </div>
+    </header>
+
+    <section class="pricing-hero">
+        <div class="pricing-hero-content">
+            <div class="breadcrumbs">
+                <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right"></i> <span>Pricing</span>
+            </div>
+            <span class="section-tag">PRICING TIERS</span>
+            <h1>Simple plans, no hidden <span>surprises</span></h1>
+            <p class="pricing-lead">Start free, scale when you are ready. All subscriptions include core infrastructure safety features, segregating custodian protection, and basic API endpoints.</p>
+        </div>
+    </section>
+
+    <section class="pricing-calculator-section">
+        <div class="container">
+            <div class="billing-toggle-container">
+                <span class="toggle-label" id="monthlyLabel">Monthly Billing</span>
+                <label class="switch" for="pricingToggle">
+                    <input type="checkbox" id="pricingToggle" aria-label="Toggle annual billing">
+                    <span class="slider"></span>
+                </label>
+                <span class="toggle-label" id="annualLabel">Annual Billing</span>
+                <span class="save-badge">Save 35%</span>
+            </div>
+
+            <div class="pricing-cards-grid">
+                <div class="pricing-plan-card">
+                    <h3>Starter Plan</h3>
+                    <p class="plan-desc">For developers testing checkouts and small startups with low initial payment volume requirements.</p>
+                    <div class="price-container">
+                        <span class="price-val" id="starterPrice">$0</span>
+                        <span class="price-period">/month</span>
+                    </div>
+                    <ul class="plan-features-list">
+                        <li><i class="fa-solid fa-check"></i> Standard API integration access</li>
+                        <li><i class="fa-solid fa-check"></i> Up to $10,000 monthly volume</li>
+                        <li><i class="fa-solid fa-check"></i> Basic email support ticket queue</li>
+                        <li class="disabled"><i class="fa-solid fa-xmark"></i> Multi-currency currency accounts</li>
+                        <li class="disabled"><i class="fa-solid fa-xmark"></i> Dedicated compliance officer</li>
+                    </ul>
+                    <a href="index.html" class="btn-hero btn-hero--outline plan-cta-btn">Start Free Trial</a>
+                </div>
+
+                <div class="pricing-plan-card featured">
+                    <span class="featured-badge">MOST POPULAR</span>
+                    <h3>Growth Plan</h3>
+                    <p class="plan-desc">Designed for scaling platforms processing international payments in multiple countries.</p>
+                    <div class="price-container">
+                        <span class="price-val" id="growthPrice">$49</span>
+                        <span class="price-period">/month</span>
+                    </div>
+                    <ul class="plan-features-list">
+                        <li><i class="fa-solid fa-check"></i> Priority REST API webhooks</li>
+                        <li><i class="fa-solid fa-check"></i> Up to $100,000 monthly volume</li>
+                        <li><i class="fa-solid fa-check"></i> Multi-currency currency accounts</li>
+                        <li><i class="fa-solid fa-check"></i> Live priority chat channel SLA</li>
+                        <li class="disabled"><i class="fa-solid fa-xmark"></i> Dedicated compliance officer</li>
+                    </ul>
+                    <a href="index.html" class="btn-hero btn-hero--primary plan-cta-btn">Get Started Now</a>
+                </div>
+
+                <div class="pricing-plan-card">
+                    <h3>Enterprise Plan</h3>
+                    <p class="plan-desc">Custom treasury platforms processing massive bulk payroll distributions globally.</p>
+                    <div class="price-container">
+                        <span class="price-val">Custom</span>
+                    </div>
+                    <ul class="plan-features-list">
+                        <li><i class="fa-solid fa-check"></i> Custom SDKs & developer assistance</li>
+                        <li><i class="fa-solid fa-check"></i> Unlimited monthly volume</li>
+                        <li><i class="fa-solid fa-check"></i> Segregated custodian assets</li>
+                        <li><i class="fa-solid fa-check"></i> Sub-15 minute ticket SLA</li>
+                        <li><i class="fa-solid fa-check"></i> Dedicated compliance officer</li>
+                    </ul>
+                    <a href="contact.html?subject=Enterprise%20Pricing%20Quote" class="btn-hero btn-hero--outline plan-cta-btn">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing-matrix-section">
+        <div class="container">
+            <div class="section-header-centered">
+                <span class="section-tag">COMPARE PLANS</span>
+                <h2>Detailed feature matrix</h2>
+                <p>An overview of limits, tools, and technical options included across each subscription tier.</p>
+            </div>
+            <div class="matrix-table-wrapper">
+                <table class="matrix-table">
+                    <thead>
+                        <tr>
+                            <th>Features</th>
+                            <th>Starter</th>
+                            <th>Growth</th>
+                            <th>Enterprise</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="feature-name">Transaction Fees</td>
+                            <td>1.2% + $0.30</td>
+                            <td>0.8% + $0.20</td>
+                            <td>Volume custom rates</td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Supported Countries</td>
+                            <td>10 Countries</td>
+                            <td>190+ Countries</td>
+                            <td>190+ Countries</td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">AI Insights & Forecasting</td>
+                            <td><i class="fa-solid fa-xmark table-disabled"></i></td>
+                            <td><i class="fa-solid fa-check table-enabled"></i></td>
+                            <td><i class="fa-solid fa-check table-enabled"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Custom Integrations Support</td>
+                            <td>Self-serve docs</td>
+                            <td>Slack priority queue</td>
+                            <td>Dedicated TAM engineer</td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Uptime SLA</td>
+                            <td>99.9%</td>
+                            <td>99.99%</td>
+                            <td>99.99% Guaranteed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing-faq-cta">
+        <div class="faq-cta-inner">
+            <div class="faq-cta-left">
+                <h2>Still have pricing questions?</h2>
+                <p>Check out our FAQ section to see details about volume-based pricing structures, refund policies, and how transaction limits function in sandbox networks.</p>
+            </div>
+            <a href="index.html#faq" class="btn-hero btn-hero--primary">Read FAQ Details <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <p>© 2026 NovaPay. All rights reserved. Designed by <span>TemplateMo.</span></p>
+            </div>
+            <div class="footer-right">
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Cookies</a>
+                <span class="divider">|</span>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const pricingToggle = document.getElementById('pricingToggle');
+        const starterPrice = document.getElementById('starterPrice');
+        const growthPrice = document.getElementById('growthPrice');
+
+        pricingToggle.addEventListener('change', () => {
+            const isAnnual = pricingToggle.checked;
+            if (isAnnual) {
+                starterPrice.textContent = '$0';
+                growthPrice.textContent = '$32';
+            } else {
+                starterPrice.textContent = '$0';
+                growthPrice.textContent = '$49';
+            }
+        });
+    </script>
+    <script src="global.js"></script>
+</body>
+</html>
